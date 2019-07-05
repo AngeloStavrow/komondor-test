@@ -16,6 +16,7 @@
 		17FDCB8422D00C2200D92ED8 /* komondor_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB8322D00C2200D92ED8 /* komondor_testTests.swift */; };
 		17FDCB8F22D00C2200D92ED8 /* komondor_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB8E22D00C2200D92ED8 /* komondor_testUITests.swift */; };
 		17FDCB9D22D00C9000D92ED8 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB9C22D00C9000D92ED8 /* Package.swift */; };
+		17FDCB9F22D00CD100D92ED8 /* Dummyfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB9E22D00CD100D92ED8 /* Dummyfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		17FDCB8E22D00C2200D92ED8 /* komondor_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komondor_testUITests.swift; sourceTree = "<group>"; };
 		17FDCB9022D00C2200D92ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17FDCB9C22D00C9000D92ED8 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		17FDCB9E22D00CD100D92ED8 /* Dummyfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummyfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				17FDCB7722D00C2200D92ED8 /* LaunchScreen.storyboard */,
 				17FDCB7A22D00C2200D92ED8 /* Info.plist */,
 				17FDCB7422D00C2200D92ED8 /* Preview Content */,
+				17FDCB9E22D00CD100D92ED8 /* Dummyfile.swift */,
 			);
 			path = "komondor-test";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17FDCB9D22D00C9000D92ED8 /* Package.swift in Sources */,
+				17FDCB9F22D00CD100D92ED8 /* Dummyfile.swift in Sources */,
 				17FDCB6D22D00C2100D92ED8 /* AppDelegate.swift in Sources */,
 				17FDCB6F22D00C2100D92ED8 /* SceneDelegate.swift in Sources */,
 				17FDCB7122D00C2100D92ED8 /* ContentView.swift in Sources */,
