@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17FDCB6D22D00C2100D92ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB6C22D00C2100D92ED8 /* AppDelegate.swift */; };
+		17FDCB6F22D00C2100D92ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB6E22D00C2100D92ED8 /* SceneDelegate.swift */; };
+		17FDCB7122D00C2100D92ED8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB7022D00C2100D92ED8 /* ContentView.swift */; };
+		17FDCB7322D00C2200D92ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FDCB7222D00C2200D92ED8 /* Assets.xcassets */; };
+		17FDCB7622D00C2200D92ED8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FDCB7522D00C2200D92ED8 /* Preview Assets.xcassets */; };
+		17FDCB7922D00C2200D92ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FDCB7722D00C2200D92ED8 /* LaunchScreen.storyboard */; };
+		17FDCB8422D00C2200D92ED8 /* komondor_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB8322D00C2200D92ED8 /* komondor_testTests.swift */; };
+		17FDCB8F22D00C2200D92ED8 /* komondor_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB8E22D00C2200D92ED8 /* komondor_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17FDCB8022D00C2200D92ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17FDCB6122D00C2100D92ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17FDCB6822D00C2100D92ED8;
+			remoteInfo = "komondor-test";
+		};
+		17FDCB8B22D00C2200D92ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17FDCB6122D00C2100D92ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17FDCB6822D00C2100D92ED8;
+			remoteInfo = "komondor-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17FDCB6922D00C2100D92ED8 /* komondor-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "komondor-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FDCB6C22D00C2100D92ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17FDCB6E22D00C2100D92ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17FDCB7022D00C2100D92ED8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17FDCB7222D00C2200D92ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17FDCB7522D00C2200D92ED8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17FDCB7822D00C2200D92ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17FDCB7A22D00C2200D92ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FDCB7F22D00C2200D92ED8 /* komondor-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "komondor-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FDCB8322D00C2200D92ED8 /* komondor_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komondor_testTests.swift; sourceTree = "<group>"; };
+		17FDCB8522D00C2200D92ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FDCB8A22D00C2200D92ED8 /* komondor-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "komondor-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FDCB8E22D00C2200D92ED8 /* komondor_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komondor_testUITests.swift; sourceTree = "<group>"; };
+		17FDCB9022D00C2200D92ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17FDCB6622D00C2100D92ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17FDCB7C22D00C2200D92ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17FDCB8722D00C2200D92ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17FDCB6022D00C2100D92ED8 = {
+			isa = PBXGroup;
+			children = (
+				17FDCB6B22D00C2100D92ED8 /* komondor-test */,
+				17FDCB8222D00C2200D92ED8 /* komondor-testTests */,
+				17FDCB8D22D00C2200D92ED8 /* komondor-testUITests */,
+				17FDCB6A22D00C2100D92ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17FDCB6A22D00C2100D92ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17FDCB6922D00C2100D92ED8 /* komondor-test.app */,
+				17FDCB7F22D00C2200D92ED8 /* komondor-testTests.xctest */,
+				17FDCB8A22D00C2200D92ED8 /* komondor-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17FDCB6B22D00C2100D92ED8 /* komondor-test */ = {
+			isa = PBXGroup;
+			children = (
+				17FDCB6C22D00C2100D92ED8 /* AppDelegate.swift */,
+				17FDCB6E22D00C2100D92ED8 /* SceneDelegate.swift */,
+				17FDCB7022D00C2100D92ED8 /* ContentView.swift */,
+				17FDCB7222D00C2200D92ED8 /* Assets.xcassets */,
+				17FDCB7722D00C2200D92ED8 /* LaunchScreen.storyboard */,
+				17FDCB7A22D00C2200D92ED8 /* Info.plist */,
+				17FDCB7422D00C2200D92ED8 /* Preview Content */,
+			);
+			path = "komondor-test";
+			sourceTree = "<group>";
+		};
+		17FDCB7422D00C2200D92ED8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17FDCB7522D00C2200D92ED8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17FDCB8222D00C2200D92ED8 /* komondor-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				17FDCB8322D00C2200D92ED8 /* komondor_testTests.swift */,
+				17FDCB8522D00C2200D92ED8 /* Info.plist */,
+			);
+			path = "komondor-testTests";
+			sourceTree = "<group>";
+		};
+		17FDCB8D22D00C2200D92ED8 /* komondor-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17FDCB8E22D00C2200D92ED8 /* komondor_testUITests.swift */,
+				17FDCB9022D00C2200D92ED8 /* Info.plist */,
+			);
+			path = "komondor-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17FDCB6822D00C2100D92ED8 /* komondor-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FDCB9322D00C2200D92ED8 /* Build configuration list for PBXNativeTarget "komondor-test" */;
+			buildPhases = (
+				17FDCB6522D00C2100D92ED8 /* Sources */,
+				17FDCB6622D00C2100D92ED8 /* Frameworks */,
+				17FDCB6722D00C2100D92ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "komondor-test";
+			productName = "komondor-test";
+			productReference = 17FDCB6922D00C2100D92ED8 /* komondor-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17FDCB7E22D00C2200D92ED8 /* komondor-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FDCB9622D00C2200D92ED8 /* Build configuration list for PBXNativeTarget "komondor-testTests" */;
+			buildPhases = (
+				17FDCB7B22D00C2200D92ED8 /* Sources */,
+				17FDCB7C22D00C2200D92ED8 /* Frameworks */,
+				17FDCB7D22D00C2200D92ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17FDCB8122D00C2200D92ED8 /* PBXTargetDependency */,
+			);
+			name = "komondor-testTests";
+			productName = "komondor-testTests";
+			productReference = 17FDCB7F22D00C2200D92ED8 /* komondor-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17FDCB8922D00C2200D92ED8 /* komondor-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FDCB9922D00C2200D92ED8 /* Build configuration list for PBXNativeTarget "komondor-testUITests" */;
+			buildPhases = (
+				17FDCB8622D00C2200D92ED8 /* Sources */,
+				17FDCB8722D00C2200D92ED8 /* Frameworks */,
+				17FDCB8822D00C2200D92ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17FDCB8C22D00C2200D92ED8 /* PBXTargetDependency */,
+			);
+			name = "komondor-testUITests";
+			productName = "komondor-testUITests";
+			productReference = 17FDCB8A22D00C2200D92ED8 /* komondor-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17FDCB6122D00C2100D92ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					17FDCB6822D00C2100D92ED8 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					17FDCB7E22D00C2200D92ED8 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 17FDCB6822D00C2100D92ED8;
+					};
+					17FDCB8922D00C2200D92ED8 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 17FDCB6822D00C2100D92ED8;
+					};
+				};
+			};
+			buildConfigurationList = 17FDCB6422D00C2100D92ED8 /* Build configuration list for PBXProject "komondor-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17FDCB6022D00C2100D92ED8;
+			productRefGroup = 17FDCB6A22D00C2100D92ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17FDCB6822D00C2100D92ED8 /* komondor-test */,
+				17FDCB7E22D00C2200D92ED8 /* komondor-testTests */,
+				17FDCB8922D00C2200D92ED8 /* komondor-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17FDCB6722D00C2100D92ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FDCB7922D00C2200D92ED8 /* LaunchScreen.storyboard in Resources */,
+				17FDCB7622D00C2200D92ED8 /* Preview Assets.xcassets in Resources */,
+				17FDCB7322D00C2200D92ED8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17FDCB7D22D00C2200D92ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17FDCB8822D00C2200D92ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17FDCB6522D00C2100D92ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FDCB6D22D00C2100D92ED8 /* AppDelegate.swift in Sources */,
+				17FDCB6F22D00C2100D92ED8 /* SceneDelegate.swift in Sources */,
+				17FDCB7122D00C2100D92ED8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17FDCB7B22D00C2200D92ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FDCB8422D00C2200D92ED8 /* komondor_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17FDCB8622D00C2200D92ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FDCB8F22D00C2200D92ED8 /* komondor_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17FDCB8122D00C2200D92ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17FDCB6822D00C2100D92ED8 /* komondor-test */;
+			targetProxy = 17FDCB8022D00C2200D92ED8 /* PBXContainerItemProxy */;
+		};
+		17FDCB8C22D00C2200D92ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17FDCB6822D00C2100D92ED8 /* komondor-test */;
+			targetProxy = 17FDCB8B22D00C2200D92ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17FDCB7722D00C2200D92ED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17FDCB7822D00C2200D92ED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17FDCB9122D00C2200D92ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17FDCB9222D00C2200D92ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17FDCB9422D00C2200D92ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "komondor-test/Preview\\ Content";
+				DEVELOPMENT_TEAM = 5EU84764M5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "komondor-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.komondor-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17FDCB9522D00C2200D92ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "komondor-test/Preview\\ Content";
+				DEVELOPMENT_TEAM = 5EU84764M5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "komondor-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.komondor-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17FDCB9722D00C2200D92ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EU84764M5;
+				INFOPLIST_FILE = "komondor-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.komondor-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/komondor-test.app/komondor-test";
+			};
+			name = Debug;
+		};
+		17FDCB9822D00C2200D92ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EU84764M5;
+				INFOPLIST_FILE = "komondor-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.komondor-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/komondor-test.app/komondor-test";
+			};
+			name = Release;
+		};
+		17FDCB9A22D00C2200D92ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EU84764M5;
+				INFOPLIST_FILE = "komondor-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.komondor-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "komondor-test";
+			};
+			name = Debug;
+		};
+		17FDCB9B22D00C2200D92ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EU84764M5;
+				INFOPLIST_FILE = "komondor-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.komondor-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "komondor-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17FDCB6422D00C2100D92ED8 /* Build configuration list for PBXProject "komondor-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FDCB9122D00C2200D92ED8 /* Debug */,
+				17FDCB9222D00C2200D92ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17FDCB9322D00C2200D92ED8 /* Build configuration list for PBXNativeTarget "komondor-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FDCB9422D00C2200D92ED8 /* Debug */,
+				17FDCB9522D00C2200D92ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17FDCB9622D00C2200D92ED8 /* Build configuration list for PBXNativeTarget "komondor-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FDCB9722D00C2200D92ED8 /* Debug */,
+				17FDCB9822D00C2200D92ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17FDCB9922D00C2200D92ED8 /* Build configuration list for PBXNativeTarget "komondor-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FDCB9A22D00C2200D92ED8 /* Debug */,
+				17FDCB9B22D00C2200D92ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17FDCB6122D00C2100D92ED8 /* Project object */;
+}
