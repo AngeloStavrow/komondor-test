@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		17FDCB8F22D00C2200D92ED8 /* komondor_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB8E22D00C2200D92ED8 /* komondor_testUITests.swift */; };
 		17FDCB9D22D00C9000D92ED8 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB9C22D00C9000D92ED8 /* Package.swift */; };
 		17FDCB9F22D00CD100D92ED8 /* Dummyfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB9E22D00CD100D92ED8 /* Dummyfile.swift */; };
+		17FDCBA122D00E9A00D92ED8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 17FDCBA022D00E9A00D92ED8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		17FDCB9022D00C2200D92ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17FDCB9C22D00C9000D92ED8 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		17FDCB9E22D00CD100D92ED8 /* Dummyfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummyfile.swift; sourceTree = "<group>"; };
+		17FDCBA022D00E9A00D92ED8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		17FDCB6022D00C2100D92ED8 = {
 			isa = PBXGroup;
 			children = (
+				17FDCBA022D00E9A00D92ED8 /* README.md */,
 				17FDCB9C22D00C9000D92ED8 /* Package.swift */,
 				17FDCB6B22D00C2100D92ED8 /* komondor-test */,
 				17FDCB8222D00C2200D92ED8 /* komondor-testTests */,
@@ -229,6 +232,9 @@
 				Base,
 			);
 			mainGroup = 17FDCB6022D00C2100D92ED8;
+			packageReferences = (
+				17FDCBA222D010B500D92ED8 /* XCRemoteSwiftPackageReference "Komondor" */,
+			);
 			productRefGroup = 17FDCB6A22D00C2100D92ED8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -247,6 +253,7 @@
 			files = (
 				17FDCB7922D00C2200D92ED8 /* LaunchScreen.storyboard in Resources */,
 				17FDCB7622D00C2200D92ED8 /* Preview Assets.xcassets in Resources */,
+				17FDCBA122D00E9A00D92ED8 /* README.md in Resources */,
 				17FDCB7322D00C2200D92ED8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,6 +606,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17FDCBA222D010B500D92ED8 /* XCRemoteSwiftPackageReference "Komondor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shibapm/Komondor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 17FDCB6122D00C2100D92ED8 /* Project object */;
 }
