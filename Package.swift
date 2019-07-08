@@ -15,9 +15,9 @@ let package = Package(
 #if canImport(PackageConfig)
     import PackageConfig
 
-    let config = PackageConfig([
+    let config = PackageConfiguration([
         "komondor": [
             "pre-commit": "echo 'Hi'"
         ],
-    ])
+    ]).write()
 #endif
