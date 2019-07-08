@@ -72,4 +72,35 @@ Fatal error: Error raised at top level: PackageConfig.Error(reason: "Could not f
 .git/hooks/pre-commit: line 21: 18454 Illegal instruction: 4  $komondor run pre-commit
 ```
 
-So this is where I'm now stuck.
+Turns out, the issue was with the `PackageConfiguration` syntax in my  **Package.swift** file — thanks to [@palleas](https://github.com/palleas) for catching that! See the required changes in commit 4970c1af8e2fbdae5d46ce8aaa07b98c8e7e4d31 for more info.  
+
+Now, I get this after adding the SwiftLint package (and running `$ swift build` at the repo's root, which I'm not sure is necessary):
+
+```
+$ swift build
+$ git commit -S -m "Add SwiftLint tasks"
+> echo '[🤖 Starting pre-commit tasks]'
+[🤖 Starting pre-commit tasks]
+> echo '[🤖 Running SwiftLint]'
+[🤖 Running SwiftLint]
+> swift run swiftlint autocorrect --path komondor-test/
+/Users/Angelo/Developer/DroppedBits/experiments/komondor-test/komondor-test/ContentView.swift:17:8 Corrected Colon
+/Users/Angelo/Developer/DroppedBits/experiments/komondor-test/komondor-test/ContentView.swift:10:8 Corrected Colon
+/Users/Angelo/Developer/DroppedBits/experiments/komondor-test/komondor-test/AppDelegate.swift:35:1 Corrected Trailing Newline
+/Users/Angelo/Developer/DroppedBits/experiments/komondor-test/komondor-test/AppDelegate.swift:12:1 Corrected Vertical Whitespace
+/Users/Angelo/Developer/DroppedBits/experiments/komondor-test/komondor-test/AppDelegate.swift:13:1 Corrected Vertical Whitespace
+/Users/Angelo/Developer/DroppedBits/experiments/komondor-test/komondor-test/AppDelegate.swift:33:1 Corrected Vertical Whitespace
+/Users/Angelo/Developer/DroppedBits/experiments/komondor-test/komondor-test/SceneDelegate.swift:59:1 Corrected Trailing Newline
+/Users/Angelo/Developer/DroppedBits/experiments/komondor-test/komondor-test/SceneDelegate.swift:14:1 Corrected Vertical Whitespace
+/Users/Angelo/Developer/DroppedBits/experiments/komondor-test/komondor-test/SceneDelegate.swift:57:1 Corrected Vertical Whitespace
+> echo '[🤖 Adding changes to commit]'
+[🤖 Adding changes to commit]
+> git add .
+
+> echo '[🤖 Pre-commit tasks complete]'
+[🤖 Pre-commit tasks complete]
+[master ba8be3b] Add SwiftLint tasks
+6 files changed, 115 insertions(+), 11 deletions(-)
+```
+
+🎉🎉🎉
