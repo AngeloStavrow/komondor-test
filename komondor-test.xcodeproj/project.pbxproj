@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		179C04CE22D34DC7001C735A /* SwiftLintFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 179C04CD22D34DC7001C735A /* SwiftLintFramework */; };
 		17FDCB6D22D00C2100D92ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB6C22D00C2100D92ED8 /* AppDelegate.swift */; };
 		17FDCB6F22D00C2100D92ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB6E22D00C2100D92ED8 /* SceneDelegate.swift */; };
 		17FDCB7122D00C2100D92ED8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FDCB7022D00C2100D92ED8 /* ContentView.swift */; };
@@ -62,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179C04CE22D34DC7001C735A /* SwiftLintFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +163,9 @@
 			dependencies = (
 			);
 			name = "komondor-test";
+			packageProductDependencies = (
+				179C04CD22D34DC7001C735A /* SwiftLintFramework */,
+			);
 			productName = "komondor-test";
 			productReference = 17FDCB6922D00C2100D92ED8 /* komondor-test.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +239,7 @@
 			mainGroup = 17FDCB6022D00C2100D92ED8;
 			packageReferences = (
 				17FDCBA222D010B500D92ED8 /* XCRemoteSwiftPackageReference "Komondor" */,
+				179C04CC22D34DC7001C735A /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = 17FDCB6A22D00C2100D92ED8 /* Products */;
 			projectDirPath = "";
@@ -610,6 +616,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		179C04CC22D34DC7001C735A /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.33.0;
+			};
+		};
 		17FDCBA222D010B500D92ED8 /* XCRemoteSwiftPackageReference "Komondor" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/shibapm/Komondor.git";
@@ -619,6 +633,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		179C04CD22D34DC7001C735A /* SwiftLintFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 179C04CC22D34DC7001C735A /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = SwiftLintFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 17FDCB6122D00C2100D92ED8 /* Project object */;
 }
