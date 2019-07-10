@@ -23,6 +23,8 @@ let package = Package(
                 "echo '[🤖 Running SwiftLint]'",
                 "swift run swiftlint autocorrect --path komondor-test/",
                 "echo '[🤖 Adding changes to commit]'",
+                "xcrun agvtool what-marketing-version",
+                "xcrun agvtool what-version",
                 "git add .",
                 "echo '[🤖 Pre-commit tasks complete]'",
             ]
